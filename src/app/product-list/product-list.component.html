@@ -8,7 +8,7 @@
     class="bg-white rounded-md shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
   >
     <div class="p-4">
-      <h2 class="text-xl font-bold text-purple-500 mb-2">
+      <h2 class="text-xl font-bold text-purple-500">
         {{ product.fields["productName"] }}
       </h2>
 
@@ -16,7 +16,7 @@
         *ngIf="getImageUrl(product)"
         [src]="getImageUrl(product)"
         [alt]="product.fields['productName']"
-        class="w-full mb-4"
+        class="w-full"
       />
 
       <p class="mb-2">
