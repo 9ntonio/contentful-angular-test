@@ -1,5 +1,5 @@
-<h1 class="text-5xl font-bold text-pink-500 mb-8 tracking-tight">
-  Contentful CMS Product List
+<h1 class="text-5xl font-bold text-pink-500 mb-4 tracking-tight">
+  Contentful Product Data
 </h1>
 
 <ul class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -11,9 +11,18 @@
       <h2 class="text-xl font-bold text-purple-500 mb-2">
         {{ product.fields["productName"] }}
       </h2>
+
+      <img
+        *ngIf="getImageUrl(product)"
+        [src]="getImageUrl(product)"
+        [alt]="product.fields['productName']"
+        class="w-full mb-4"
+      />
+
       <p class="mb-2">
         {{ product.fields["productDescription"] }}
       </p>
+
       <div class="text-lg font-bold text-red-500">
         ${{ product.fields["price"] }}.00
       </div>
