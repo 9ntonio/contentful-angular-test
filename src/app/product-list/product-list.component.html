@@ -1,31 +1,55 @@
 <h1 class="text-5xl font-bold text-pink-500 mb-4 tracking-tight">
-  Contentful Product Data
+  Contentful Home Page
 </h1>
 
-<ul class="grid grid-cols-1 md:grid-cols-2 gap-6">
+<ng-container *ngIf="homePage">
+  <div class="relative">
+    <h2
+      class="text-[10rem] text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-extrabold"
+    >
+      {{ homePage.fields["heroBannerHeadline"] }}
+    </h2>
+    <ng-container *ngIf="homePage.fields['heroBannerImage']">
+      <img
+        *ngIf="homePage.fields['heroBannerImage']"
+        [src]="getHeroImageUrl(homePage)"
+        [alt]="homePage.fields['heroBannerHeadline']"
+        class="w-full -z-10 relative mb-10 h-[555px] object-cover object-top"
+      />
+    </ng-container>
+  </div>
+</ng-container>
+
+<div class="text-3xl font-extrabold text-pink-500 mb-1"> Trending Now </div>
+
+<ul class="grid grid-cols-1 md:grid-cols-3 gap-6">
   <li
     *ngFor="let product of products"
     class="bg-white rounded-md shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
   >
     <div class="p-4">
-      <h2 class="text-xl font-bold text-purple-500">
-        {{ product.fields["productName"] }}
+      <h2 class="text-xl font-medium text-gray-500 mb-2">
+        {{ product.fields["internalName"] }}
       </h2>
 
-      <img
-        *ngIf="getImageUrl(product)"
-        [src]="getImageUrl(product)"
-        [alt]="product.fields['productName']"
-        class="w-full"
-      />
+      <ng-container *ngIf="product.fields['featuredProductImage']">
+        <img
+          *ngIf="product.fields['featuredProductImage']"
+          [src]="getFeaturedProductImageUrl(product)"
+          [alt]="product.fields['name']"
+          class="w-full mb-3"
+        />
+      </ng-container>
 
-      <p class="mb-2">
-        {{ product.fields["productDescription"] }}
+      <p class="mb-2 text-gray-500 leading-snug">
+        {{ product.fields["description"] }}
       </p>
 
-      <div class="text-lg font-bold text-red-500">
-        ${{ product.fields["price"] }}.00
-      </div>
+      <ng-container *ngIf="product.fields['price']">
+        <div class="text-lg font-bold text-pink-500">
+          ${{ product.fields["price"] }}
+        </div>
+      </ng-container>
     </div>
   </li>
 </ul>
