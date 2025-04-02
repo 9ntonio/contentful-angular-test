@@ -11,32 +11,32 @@ import { Entry } from "contentful";
   imports: [CommonModule],
 })
 export class ProductListComponent implements OnInit {
-  public products: Entry<any>[] = [];
-  public homePage: Entry<any> | null = null;
+  public products: Entry[] = [];
+  public homePage: Entry | null = null;
 
   constructor(private readonly _contentfulService: ContentfulService) {}
 
   ngOnInit() {
     this._contentfulService.getEntries();
-    this._contentfulService.getHomePage().then((data: Entry<any>) => {
+    this._contentfulService.getHomePage().then((data: Entry) => {
       this.homePage = data;
       this.products = (data.fields as Record<string, any>)["products"];
     });
   }
 
-  getProductImageUrl(product: Entry<any>): string | null {
+  getProductImageUrl(product: Entry): string | null {
     const fields = product?.fields as Record<string, any>;
     const image = fields?.["productImages"];
     return image[0]?.fields?.file?.url || null;
   }
 
-  getFeaturedProductImageUrl(product: Entry<any>): string | null {
+  getFeaturedProductImageUrl(product: Entry): string | null {
     const fields = product?.fields as Record<string, any>;
     const productImage = fields?.["featuredProductImage"];
     return productImage?.fields?.file?.url || null;
   }
 
-  getHeroImageUrl(homePage: Entry<any>): string | null {
+  getHeroImageUrl(homePage: Entry): string | null {
     const fields = homePage?.fields as Record<string, any>;
     const heroImage = fields?.["heroBannerImage"];
     return heroImage?.fields?.file?.url || null;
