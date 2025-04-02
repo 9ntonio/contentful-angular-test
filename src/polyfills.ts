@@ -20,9 +20,9 @@
 (window as any).process = {
   env: {
     NODE_ENV: "production",
-    CONTENTFUL_SPACE_ID: "zm7rtuyvkdw4",
-    CONTENTFUL_ACCESS_TOKEN: "lG_hunxKompS9qkl0dskL-W1zo7QURER4p3ta3FetDU",
-    CONTENTFUL_HOME_PAGE_ID: "2cayfg7wVF5WezADCHgSgL",
+    CONTENTFUL_SPACE_ID: process.env["CONTENTFUL_SPACE_ID"],
+    CONTENTFUL_ACCESS_TOKEN: process.env["CONTENTFUL_ACCESS_TOKEN"],
+    CONTENTFUL_HOME_PAGE_ID: process.env["CONTENTFUL_HOME_PAGE_ID"],
   },
   version: "",
   // Simplified implementation of process.nextTick using setTimeout
