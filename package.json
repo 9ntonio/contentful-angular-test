@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:contentful-product-catalog-angular": "node dist/contentful-product-catalog-angular/server/server.mjs"
+    "serve:ssr:contentful-product-catalog-angular": "node dist/contentful-product-catalog-angular/server/server.mjs",
+    "prepare": "husky"
   },
   "private": true,
   "dependencies": {
@@ -35,6 +36,7 @@
     "@types/jasmine": "~5.1.0",
     "@types/node": "^18.18.0",
     "autoprefixer": "^10.4.21",
+    "husky": "^9.1.7",
     "jasmine-core": "~5.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
