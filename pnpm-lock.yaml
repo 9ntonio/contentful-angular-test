@@ -40,7 +40,7 @@ importers:
         version: 18.2.16(@angular/common@18.2.13(@angular/core@18.2.13(rxjs@7.8.2)(zone.js@0.14.10))(rxjs@7.8.2))(@angular/core@18.2.13(rxjs@7.8.2)(zone.js@0.14.10))
       contentful:
         specifier: ^11.5.11
-        version: 11.5.11
+        version: 11.5.12
       express:
         specifier: ^4.18.2
         version: 4.21.2
@@ -1985,8 +1985,8 @@ packages:
     resolution: {integrity: sha512-cUvHbC2u8ouJHhG3tofQhUc0FAmM/QBcalYjiczMtFKrR77BW+eSPcPg+A9DQlhIP0UGcQ/knXxoJpBvrERXTA==}
     engines: {node: '>=18'}
 
-  contentful@11.5.11:
-    resolution: {integrity: sha512-aM0wDMou5TuyDTBQaEZ+CxCGqQcaYfBLeFk94RFDeY7vbn+YEG5NNIkIj24+nTk0uJI+TXxOTttL86CGEN99hw==}
+  contentful@11.5.12:
+    resolution: {integrity: sha512-kXs4aFXBl7ovWz2D6Q9YuZAC83D10K960Ai4Imbvn6fgMjeKDwkl2n4CDbqtNqh27fSPnOaPw8wgM1+ZhJ8q+Q==}
     engines: {node: '>=18'}
 
   convert-source-map@1.9.0:
@@ -4076,8 +4076,8 @@ packages:
     resolution: {integrity: sha512-t0rzBq87m3fVcduHDUFhKmyyX+9eo6WQjZvf51Ea/M0Q7+T374Jp1aUiyUl0GKxp8M/OETVHSDvmkyPgvX+X2w==}
     engines: {node: '>=10'}
 
-  type-fest@4.38.0:
-    resolution: {integrity: sha512-2dBz5D5ycHIoliLYLi0Q2V7KRaDlH0uWIvmk7TYlAg5slqwiPv1ezJdZm1QEM0xgk29oYWMCbIG7E6gHpvChlg==}
+  type-fest@4.39.0:
+    resolution: {integrity: sha512-w2IGJU1tIgcrepg9ZJ82d8UmItNQtOFJG0HCUE3SzMokKkTsruVDALl2fAdiEzJlfduoU+VyXJWIIUZ+6jV+nw==}
     engines: {node: '>=16'}
 
   type-is@1.6.18:
@@ -6492,7 +6492,7 @@ snapshots:
     optionalDependencies:
       '@rollup/rollup-linux-x64-gnu': 4.38.0
 
-  contentful@11.5.11:
+  contentful@11.5.12:
     dependencies:
       '@contentful/content-source-maps': 0.11.10
       '@contentful/rich-text-types': 16.8.5
@@ -6500,7 +6500,7 @@ snapshots:
       contentful-resolve-response: 1.9.2
       contentful-sdk-core: 9.2.0
       json-stringify-safe: 5.0.1
-      type-fest: 4.38.0
+      type-fest: 4.39.0
     transitivePeerDependencies:
       - debug
 
@@ -8778,7 +8778,7 @@ snapshots:
 
   type-fest@0.21.3: {}
 
-  type-fest@4.38.0: {}
+  type-fest@4.39.0: {}
 
   type-is@1.6.18:
     dependencies:
