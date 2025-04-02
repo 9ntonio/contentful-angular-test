@@ -13,12 +13,10 @@ import * as path from "path";
 dotenv.config();
 
 const CONFIG = {
-  space: process.env.CONTENTFUL_SPACE_ID || "zm7rtuyvkdw4",
-  accessToken:
-    process.env.CONTENTFUL_ACCESS_TOKEN ||
-    "lG_hunxKompS9qkl0dskL-W1zo7QURER4p3ta3FetDU",
-  environment: process.env.CONTENTFUL_ENVIRONMENT || "master",
-  homePageId: "2cayfg7wVF5WezADCHgSgL",
+  space: process.env["CONTENTFUL_SPACE_ID"],
+  accessToken: process.env["CONTENTFUL_ACCESS_TOKEN"],
+  environment: process.env["CONTENTFUL_ENVIRONMENT"],
+  homePageId: process.env["HOME_PAGE_ID"],
 };
 
 async function generateRoutes() {
