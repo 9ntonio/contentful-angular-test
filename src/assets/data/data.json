@@ -1,0 +1,194 @@
+{
+  "homepage": {
+    "sys": {
+      "id": "2cayfg7wVF5WezADCHgSgL",
+      "type": "Entry"
+    },
+    "fields": {
+      "internalName": "Homepage",
+      "heroBannerHeadline": "Evening",
+      "heroBannerImage": {
+        "sys": {
+          "id": "6PkraSxWWd96AU6FTYVssd",
+          "type": "Asset"
+        },
+        "fields": {
+          "file": {
+            "url": "/assets/contentful/6PkraSxWWd96AU6FTYVssd_khaled-ghareeb-qCCaBQ8b6lM-unsplash.jpg"
+          }
+        }
+      }
+    }
+  },
+  "products": [
+    {
+      "sys": {
+        "id": "2sBt5zykblWEodnnEnPxfU",
+        "type": "Entry"
+      },
+      "fields": {
+        "internalName": "Black dress",
+        "name": "Black dress",
+        "description": "V-neck short dress featuring long sleeves with elastic cuffs. Matching jacquard and ruffle details. Lining.",
+        "price": 152,
+        "featuredProductImage": {
+          "sys": {
+            "id": "1HALj6mEj6PwiHeM5f2xbU",
+            "type": "Asset"
+          },
+          "fields": {
+            "file": {
+              "url": "/assets/contentful/1HALj6mEj6PwiHeM5f2xbU_IMAGE.jpg"
+            }
+          }
+        },
+        "productImages": [
+          {
+            "sys": {
+              "id": "6jFGYaFqh9MqROH3aeUctH",
+              "type": "Asset"
+            },
+            "fields": {
+              "file": {
+                "url": "/assets/contentful/6jFGYaFqh9MqROH3aeUctH_khaled-ghareeb-OjMiS43gEPo-unsplash (1).jpg"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4T4vEnCDiBKom6S1k8eVyH",
+        "type": "Entry"
+      },
+      "fields": {
+        "internalName": "Grey dress",
+        "name": "Grey dress",
+        "description": "Collared dress with long sleeves. Elasticated waist and belt. Front fastening with metal buttons.",
+        "price": 330,
+        "featuredProductImage": {
+          "sys": {
+            "id": "kX2fKuX9ho0Bq3O8EklRu",
+            "type": "Asset"
+          },
+          "fields": {
+            "file": {
+              "url": "/assets/contentful/kX2fKuX9ho0Bq3O8EklRu_IMAGE (1).jpg"
+            }
+          }
+        },
+        "productImages": [
+          {
+            "sys": {
+              "id": "28AfvJeVgRhyJf7Q1P27xt",
+              "type": "Asset"
+            },
+            "fields": {
+              "file": {
+                "url": "/assets/contentful/28AfvJeVgRhyJf7Q1P27xt_khaled-ghareeb-upepKTbwm3A-unsplash (1).jpg"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "sys": {
+        "id": "4RbpMSbXmqeuRs9c1e88dd",
+        "type": "Entry"
+      },
+      "fields": {
+        "internalName": "Midnight green jumpsuit",
+        "name": "Midnight Green jumpsuit",
+        "description": "Collared shirt made of 100% linen. Featuring wide sleeves falling below the elbow and a button-up front hidden by a placket.",
+        "price": 190,
+        "featuredProductImage": {
+          "sys": {
+            "id": "43bDOK93jQL0DFcwg1Onks",
+            "type": "Asset"
+          },
+          "fields": {
+            "file": {
+              "url": "/assets/contentful/43bDOK93jQL0DFcwg1Onks_IMAGE.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "3fDQVDPenkIxQ2hWnHauVM",
+        "type": "Entry"
+      },
+      "fields": {
+        "internalName": "Red dress",
+        "name": "Red dress",
+        "description": "Mini dress with a high neck and long sleeves. Flared hem.",
+        "price": 372,
+        "featuredProductImage": {
+          "sys": {
+            "id": "6HTUtMvMrQO9RM38xIzgtE",
+            "type": "Asset"
+          },
+          "fields": {
+            "file": {
+              "url": "/assets/contentful/6HTUtMvMrQO9RM38xIzgtE_IMAGE (1).jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "7MSF2wmCJ89rvcay2egiTu",
+        "type": "Entry"
+      },
+      "fields": {
+        "internalName": "Blue dress",
+        "name": "Blue dress",
+        "description": "Midi dress with a round neck and long sleeves. Side gathered details at the waist. Back slit at the hem. Invisible back zip fastening.",
+        "price": 242,
+        "featuredProductImage": {
+          "sys": {
+            "id": "Qkh3n2KPwqimeqNTJYqWv",
+            "type": "Asset"
+          },
+          "fields": {
+            "file": {
+              "url": "/assets/contentful/Qkh3n2KPwqimeqNTJYqWv_IMAGE.jpg"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sys": {
+        "id": "6KFK65wxB8CwYm0wzHaQGk",
+        "type": "Entry"
+      },
+      "fields": {
+        "internalName": "Maroon dress",
+        "name": "Maroon dress",
+        "description": "Mock neck dress with wide sleeves falling below the elbow. Featuring false gold-toned buttons on the sides and a belt in the same fabric. Ruffled hem and back fastening with invisible zip and button.",
+        "price": 330,
+        "featuredProductImage": {
+          "sys": {
+            "id": "2j87g8YmvFSYmTrP3OXggp",
+            "type": "Asset"
+          },
+          "fields": {
+            "file": {
+              "url": "/assets/contentful/2j87g8YmvFSYmTrP3OXggp_IMAGE.jpg"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "meta": {
+    "exportDate": "2025-04-02T19:34:28.934Z",
+    "assetCount": 9,
+    "productCount": 6
+  }
+}

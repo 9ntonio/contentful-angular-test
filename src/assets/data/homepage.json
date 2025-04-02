@@ -1,0 +1,1250 @@
+{
+  "metadata": {
+    "tags": [],
+    "concepts": []
+  },
+  "sys": {
+    "space": {
+      "sys": {
+        "type": "Link",
+        "linkType": "Space",
+        "id": "zm7rtuyvkdw4"
+      }
+    },
+    "id": "2cayfg7wVF5WezADCHgSgL",
+    "type": "Entry",
+    "createdAt": "2025-03-31T20:25:30.917Z",
+    "updatedAt": "2025-03-31T20:25:30.917Z",
+    "environment": {
+      "sys": {
+        "id": "master",
+        "type": "Link",
+        "linkType": "Environment"
+      }
+    },
+    "publishedVersion": 1,
+    "revision": 1,
+    "contentType": {
+      "sys": {
+        "type": "Link",
+        "linkType": "ContentType",
+        "id": "pageLanding"
+      }
+    },
+    "locale": "en-US"
+  },
+  "fields": {
+    "internalName": "Homepage",
+    "seoFields": {
+      "metadata": {
+        "tags": [],
+        "concepts": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zm7rtuyvkdw4"
+          }
+        },
+        "id": "3oKRjYOCd7lSObRcaAUhWp",
+        "type": "Entry",
+        "createdAt": "2025-03-31T20:25:32.642Z",
+        "updatedAt": "2025-03-31T20:25:32.642Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "revision": 1,
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "componentSeo"
+          }
+        },
+        "locale": "en-US"
+      },
+      "fields": {
+        "internalName": "Seo, homepage",
+        "pageTitle": "Bonelli",
+        "pageDescription": "Evening wear",
+        "nofollow": false,
+        "noindex": false,
+        "shareImages": [
+          {
+            "metadata": {
+              "tags": [],
+              "concepts": []
+            },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "zm7rtuyvkdw4"
+                }
+              },
+              "id": "4vOh4wga0gcGIeW9xjDQ0X",
+              "type": "Asset",
+              "createdAt": "2025-03-31T20:25:28.386Z",
+              "updatedAt": "2025-03-31T20:25:28.386Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 2,
+              "revision": 1,
+              "locale": "en-US"
+            },
+            "fields": {
+              "title": "Social media share image",
+              "description": "Person wearing a black dress, cross their arms, facing the camera",
+              "file": {
+                "url": "/assets/contentful/4vOh4wga0gcGIeW9xjDQ0X_khaled-ghareeb-qCCaBQ8b6lM-unsplash (1).jpg",
+                "details": {
+                  "size": 649884,
+                  "image": {
+                    "width": 5228,
+                    "height": 3601
+                  }
+                },
+                "fileName": "khaled-ghareeb-qCCaBQ8b6lM-unsplash (1).jpg",
+                "contentType": "image/jpeg"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "heroBannerHeadline": "Evening",
+    "heroBannerHeadlineColor": "#FFFFFF",
+    "heroBannerImage": {
+      "metadata": {
+        "tags": [],
+        "concepts": []
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "zm7rtuyvkdw4"
+          }
+        },
+        "id": "6PkraSxWWd96AU6FTYVssd",
+        "type": "Asset",
+        "createdAt": "2025-03-31T20:25:28.395Z",
+        "updatedAt": "2025-03-31T20:25:49.973Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "revision": 2,
+        "locale": "en-US"
+      },
+      "fields": {
+        "title": "A person in black dress Holmes",
+        "description": "",
+        "file": {
+          "url": "/assets/contentful/6PkraSxWWd96AU6FTYVssd_khaled-ghareeb-qCCaBQ8b6lM-unsplash.jpg",
+          "details": {
+            "size": 1535349,
+            "image": {
+              "width": 5228,
+              "height": 3601
+            }
+          },
+          "fileName": "khaled-ghareeb-qCCaBQ8b6lM-unsplash.jpg",
+          "contentType": "image/jpeg"
+        }
+      }
+    },
+    "products": [
+      {
+        "metadata": {
+          "tags": [],
+          "concepts": []
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "zm7rtuyvkdw4"
+            }
+          },
+          "id": "2sBt5zykblWEodnnEnPxfU",
+          "type": "Entry",
+          "createdAt": "2025-03-31T20:25:30.906Z",
+          "updatedAt": "2025-03-31T20:25:30.906Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 1,
+          "revision": 1,
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "pageProduct"
+            }
+          },
+          "locale": "en-US"
+        },
+        "fields": {
+          "internalName": "Black dress",
+          "slug": "black-dress",
+          "seoFields": {
+            "metadata": {
+              "tags": [],
+              "concepts": []
+            },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "zm7rtuyvkdw4"
+                }
+              },
+              "id": "4LrnWKa34uuxBahX4YJLJe",
+              "type": "Entry",
+              "createdAt": "2025-03-31T20:25:31.638Z",
+              "updatedAt": "2025-03-31T20:25:31.638Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 1,
+              "revision": 1,
+              "contentType": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "ContentType",
+                  "id": "componentSeo"
+                }
+              },
+              "locale": "en-US"
+            },
+            "fields": {
+              "internalName": "SEO, black dress",
+              "pageTitle": "Black dress",
+              "pageDescription": "This black dress is described in this page description",
+              "nofollow": false,
+              "noindex": false,
+              "shareImages": [
+                {
+                  "sys": {
+                    "id": "4vOh4wga0gcGIeW9xjDQ0X",
+                    "type": "Asset",
+                    "circular": true
+                  }
+                }
+              ]
+            }
+          },
+          "name": "Black dress",
+          "description": "V-neck short dress featuring long sleeves with elastic cuffs. Matching jacquard and ruffle details. Lining.",
+          "price": 152,
+          "featuredProductImage": {
+            "metadata": {
+              "tags": [],
+              "concepts": []
+            },
+            "sys": {
+              "space": {
+                "sys": {
+                  "type": "Link",
+                  "linkType": "Space",
+                  "id": "zm7rtuyvkdw4"
+                }
+              },
+              "id": "1HALj6mEj6PwiHeM5f2xbU",
+              "type": "Asset",
+              "createdAt": "2025-03-31T20:25:25.350Z",
+              "updatedAt": "2025-03-31T20:25:25.350Z",
+              "environment": {
+                "sys": {
+                  "id": "master",
+                  "type": "Link",
+                  "linkType": "Environment"
+                }
+              },
+              "publishedVersion": 2,
+              "revision": 1,
+              "locale": "en-US"
+            },
+            "fields": {
+              "title": "Person wearing black dress",
+              "description": "",
+              "file": {
+                "url": "/assets/contentful/1HALj6mEj6PwiHeM5f2xbU_IMAGE.jpg",
+                "details": {
+                  "size": 99083,
+                  "image": {
+                    "width": 960,
+                    "height": 1200
+                  }
+                },
+                "fileName": "IMAGE.jpg",
+                "contentType": "image/jpeg"
+              }
+            }
+          },
+          "productImages": [
+            {
+              "metadata": {
+                "tags": [],
+                "concepts": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "zm7rtuyvkdw4"
+                  }
+                },
+                "id": "6jFGYaFqh9MqROH3aeUctH",
+                "type": "Asset",
+                "createdAt": "2025-03-31T20:25:25.346Z",
+                "updatedAt": "2025-03-31T20:25:25.346Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 2,
+                "revision": 1,
+                "locale": "en-US"
+              },
+              "fields": {
+                "title": "Person wearing black dress facing the camera sideways, sticking out her leg",
+                "description": "",
+                "file": {
+                  "url": "/assets/contentful/6jFGYaFqh9MqROH3aeUctH_khaled-ghareeb-OjMiS43gEPo-unsplash (1).jpg",
+                  "details": {
+                    "size": 227744,
+                    "image": {
+                      "width": 2575,
+                      "height": 2039
+                    }
+                  },
+                  "fileName": "khaled-ghareeb-OjMiS43gEPo-unsplash (1).jpg",
+                  "contentType": "image/jpeg"
+                }
+              }
+            }
+          ],
+          "relatedProducts": [
+            {
+              "metadata": {
+                "tags": [],
+                "concepts": []
+              },
+              "sys": {
+                "space": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "Space",
+                    "id": "zm7rtuyvkdw4"
+                  }
+                },
+                "id": "3fDQVDPenkIxQ2hWnHauVM",
+                "type": "Entry",
+                "createdAt": "2025-03-31T20:25:30.917Z",
+                "updatedAt": "2025-03-31T20:25:30.917Z",
+                "environment": {
+                  "sys": {
+                    "id": "master",
+                    "type": "Link",
+                    "linkType": "Environment"
+                  }
+                },
+                "publishedVersion": 1,
+                "revision": 1,
+                "contentType": {
+                  "sys": {
+                    "type": "Link",
+                    "linkType": "ContentType",
+                    "id": "pageProduct"
+                  }
+                },
+                "locale": "en-US"
+              },
+              "fields": {
+                "internalName": "Red dress",
+                "slug": "red-dress",
+                "seoFields": {
+                  "metadata": {
+                    "tags": [],
+                    "concepts": []
+                  },
+                  "sys": {
+                    "space": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "Space",
+                        "id": "zm7rtuyvkdw4"
+                      }
+                    },
+                    "id": "6dfj6THDbUcZ041y6G119h",
+                    "type": "Entry",
+                    "createdAt": "2025-03-31T20:25:31.623Z",
+                    "updatedAt": "2025-03-31T20:25:31.623Z",
+                    "environment": {
+                      "sys": {
+                        "id": "master",
+                        "type": "Link",
+                        "linkType": "Environment"
+                      }
+                    },
+                    "publishedVersion": 1,
+                    "revision": 1,
+                    "contentType": {
+                      "sys": {
+                        "type": "Link",
+                        "linkType": "ContentType",
+                        "id": "componentSeo"
+                      }
+                    },
+                    "locale": "en-US"
+                  },
+                  "fields": {
+                    "internalName": "SEO, red dress",
+                    "pageTitle": "Red dress",
+                    "pageDescription": "This red dress is described in this page description",
+                    "nofollow": false,
+                    "noindex": false,
+                    "shareImages": [
+                      {
+                        "metadata": {
+                          "tags": [],
+                          "concepts": []
+                        },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "zm7rtuyvkdw4"
+                            }
+                          },
+                          "id": "6HTUtMvMrQO9RM38xIzgtE",
+                          "type": "Asset",
+                          "createdAt": "2025-03-31T20:25:26.363Z",
+                          "updatedAt": "2025-03-31T20:25:26.363Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 2,
+                          "revision": 1,
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "title": "Person in red dress on a beach",
+                          "description": "",
+                          "file": {
+                            "url": "/assets/contentful/6HTUtMvMrQO9RM38xIzgtE_IMAGE (1).jpg",
+                            "details": {
+                              "size": 87760,
+                              "image": {
+                                "width": 960,
+                                "height": 1200
+                              }
+                            },
+                            "fileName": "IMAGE (1).jpg",
+                            "contentType": "image/jpeg"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                "name": "Red dress",
+                "description": "Mini dress with a high neck and long sleeves. Flared hem.",
+                "price": 372,
+                "featuredProductImage": {
+                  "sys": {
+                    "id": "6HTUtMvMrQO9RM38xIzgtE",
+                    "type": "Asset",
+                    "circular": true
+                  }
+                },
+                "relatedProducts": [
+                  {
+                    "sys": {
+                      "id": "2sBt5zykblWEodnnEnPxfU",
+                      "type": "Entry",
+                      "circular": true
+                    }
+                  },
+                  {
+                    "metadata": {
+                      "tags": [],
+                      "concepts": []
+                    },
+                    "sys": {
+                      "space": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "Space",
+                          "id": "zm7rtuyvkdw4"
+                        }
+                      },
+                      "id": "7MSF2wmCJ89rvcay2egiTu",
+                      "type": "Entry",
+                      "createdAt": "2025-03-31T20:25:31.643Z",
+                      "updatedAt": "2025-03-31T20:25:31.643Z",
+                      "environment": {
+                        "sys": {
+                          "id": "master",
+                          "type": "Link",
+                          "linkType": "Environment"
+                        }
+                      },
+                      "publishedVersion": 1,
+                      "revision": 1,
+                      "contentType": {
+                        "sys": {
+                          "type": "Link",
+                          "linkType": "ContentType",
+                          "id": "pageProduct"
+                        }
+                      },
+                      "locale": "en-US"
+                    },
+                    "fields": {
+                      "internalName": "Blue dress",
+                      "slug": "blue-dress",
+                      "seoFields": {
+                        "metadata": {
+                          "tags": [],
+                          "concepts": []
+                        },
+                        "sys": {
+                          "space": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "Space",
+                              "id": "zm7rtuyvkdw4"
+                            }
+                          },
+                          "id": "6lc6w0pNJqG2pJfDvL2gB6",
+                          "type": "Entry",
+                          "createdAt": "2025-03-31T20:25:32.615Z",
+                          "updatedAt": "2025-03-31T20:25:32.615Z",
+                          "environment": {
+                            "sys": {
+                              "id": "master",
+                              "type": "Link",
+                              "linkType": "Environment"
+                            }
+                          },
+                          "publishedVersion": 1,
+                          "revision": 1,
+                          "contentType": {
+                            "sys": {
+                              "type": "Link",
+                              "linkType": "ContentType",
+                              "id": "componentSeo"
+                            }
+                          },
+                          "locale": "en-US"
+                        },
+                        "fields": {
+                          "internalName": "SEO, blue dress",
+                          "pageTitle": "Blue dress",
+                          "pageDescription": "This blue dress is described in this page description",
+                          "nofollow": false,
+                          "noindex": false,
+                          "shareImages": [
+                            {
+                              "metadata": {
+                                "tags": [],
+                                "concepts": []
+                              },
+                              "sys": {
+                                "space": {
+                                  "sys": {
+                                    "type": "Link",
+                                    "linkType": "Space",
+                                    "id": "zm7rtuyvkdw4"
+                                  }
+                                },
+                                "id": "Qkh3n2KPwqimeqNTJYqWv",
+                                "type": "Asset",
+                                "createdAt": "2025-03-31T20:25:28.364Z",
+                                "updatedAt": "2025-03-31T20:25:28.364Z",
+                                "environment": {
+                                  "sys": {
+                                    "id": "master",
+                                    "type": "Link",
+                                    "linkType": "Environment"
+                                  }
+                                },
+                                "publishedVersion": 2,
+                                "revision": 1,
+                                "locale": "en-US"
+                              },
+                              "fields": {
+                                "title": "A person wearing a blue dress",
+                                "description": "",
+                                "file": {
+                                  "url": "/assets/contentful/Qkh3n2KPwqimeqNTJYqWv_IMAGE.jpg",
+                                  "details": {
+                                    "size": 64417,
+                                    "image": {
+                                      "width": 960,
+                                      "height": 1200
+                                    }
+                                  },
+                                  "fileName": "IMAGE.jpg",
+                                  "contentType": "image/jpeg"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "name": "Blue dress",
+                      "description": "Midi dress with a round neck and long sleeves. Side gathered details at the waist. Back slit at the hem. Invisible back zip fastening.",
+                      "price": 242,
+                      "featuredProductImage": {
+                        "sys": {
+                          "id": "Qkh3n2KPwqimeqNTJYqWv",
+                          "type": "Asset",
+                          "circular": true
+                        }
+                      },
+                      "relatedProducts": [
+                        {
+                          "metadata": {
+                            "tags": [],
+                            "concepts": []
+                          },
+                          "sys": {
+                            "space": {
+                              "sys": {
+                                "type": "Link",
+                                "linkType": "Space",
+                                "id": "zm7rtuyvkdw4"
+                              }
+                            },
+                            "id": "4RbpMSbXmqeuRs9c1e88dd",
+                            "type": "Entry",
+                            "createdAt": "2025-03-31T20:25:31.614Z",
+                            "updatedAt": "2025-03-31T20:25:31.614Z",
+                            "environment": {
+                              "sys": {
+                                "id": "master",
+                                "type": "Link",
+                                "linkType": "Environment"
+                              }
+                            },
+                            "publishedVersion": 1,
+                            "revision": 1,
+                            "contentType": {
+                              "sys": {
+                                "type": "Link",
+                                "linkType": "ContentType",
+                                "id": "pageProduct"
+                              }
+                            },
+                            "locale": "en-US"
+                          },
+                          "fields": {
+                            "internalName": "Midnight green jumpsuit",
+                            "slug": "midnight-green-jumpsuit",
+                            "seoFields": {
+                              "metadata": {
+                                "tags": [],
+                                "concepts": []
+                              },
+                              "sys": {
+                                "space": {
+                                  "sys": {
+                                    "type": "Link",
+                                    "linkType": "Space",
+                                    "id": "zm7rtuyvkdw4"
+                                  }
+                                },
+                                "id": "2DhLXpWYk9n5emtCA7GqfE",
+                                "type": "Entry",
+                                "createdAt": "2025-03-31T20:25:32.635Z",
+                                "updatedAt": "2025-03-31T20:25:32.635Z",
+                                "environment": {
+                                  "sys": {
+                                    "id": "master",
+                                    "type": "Link",
+                                    "linkType": "Environment"
+                                  }
+                                },
+                                "publishedVersion": 1,
+                                "revision": 1,
+                                "contentType": {
+                                  "sys": {
+                                    "type": "Link",
+                                    "linkType": "ContentType",
+                                    "id": "componentSeo"
+                                  }
+                                },
+                                "locale": "en-US"
+                              },
+                              "fields": {
+                                "internalName": "SEO, midnight green jumpsuit",
+                                "pageTitle": "Midnight green jumpsuit",
+                                "pageDescription": "This midnight green jumpsuit is described in this page description",
+                                "nofollow": false,
+                                "noindex": false,
+                                "shareImages": [
+                                  {
+                                    "metadata": {
+                                      "tags": [],
+                                      "concepts": []
+                                    },
+                                    "sys": {
+                                      "space": {
+                                        "sys": {
+                                          "type": "Link",
+                                          "linkType": "Space",
+                                          "id": "zm7rtuyvkdw4"
+                                        }
+                                      },
+                                      "id": "43bDOK93jQL0DFcwg1Onks",
+                                      "type": "Asset",
+                                      "createdAt": "2025-03-31T20:25:28.380Z",
+                                      "updatedAt": "2025-03-31T20:25:28.380Z",
+                                      "environment": {
+                                        "sys": {
+                                          "id": "master",
+                                          "type": "Link",
+                                          "linkType": "Environment"
+                                        }
+                                      },
+                                      "publishedVersion": 2,
+                                      "revision": 1,
+                                      "locale": "en-US"
+                                    },
+                                    "fields": {
+                                      "title": "A person wearing a green jumpsuit",
+                                      "description": "",
+                                      "file": {
+                                        "url": "/assets/contentful/43bDOK93jQL0DFcwg1Onks_IMAGE.jpg",
+                                        "details": {
+                                          "size": 48896,
+                                          "image": {
+                                            "width": 960,
+                                            "height": 1200
+                                          }
+                                        },
+                                        "fileName": "IMAGE.jpg",
+                                        "contentType": "image/jpeg"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "name": "Midnight Green jumpsuit",
+                            "description": "Collared shirt made of 100% linen. Featuring wide sleeves falling below the elbow and a button-up front hidden by a placket.",
+                            "price": 190,
+                            "featuredProductImage": {
+                              "sys": {
+                                "id": "43bDOK93jQL0DFcwg1Onks",
+                                "type": "Asset",
+                                "circular": true
+                              }
+                            },
+                            "relatedProducts": [
+                              {
+                                "metadata": {
+                                  "tags": [],
+                                  "concepts": []
+                                },
+                                "sys": {
+                                  "space": {
+                                    "sys": {
+                                      "type": "Link",
+                                      "linkType": "Space",
+                                      "id": "zm7rtuyvkdw4"
+                                    }
+                                  },
+                                  "id": "4T4vEnCDiBKom6S1k8eVyH",
+                                  "type": "Entry",
+                                  "createdAt": "2025-03-31T20:25:31.663Z",
+                                  "updatedAt": "2025-03-31T20:25:31.663Z",
+                                  "environment": {
+                                    "sys": {
+                                      "id": "master",
+                                      "type": "Link",
+                                      "linkType": "Environment"
+                                    }
+                                  },
+                                  "publishedVersion": 1,
+                                  "revision": 1,
+                                  "contentType": {
+                                    "sys": {
+                                      "type": "Link",
+                                      "linkType": "ContentType",
+                                      "id": "pageProduct"
+                                    }
+                                  },
+                                  "locale": "en-US"
+                                },
+                                "fields": {
+                                  "internalName": "Grey dress",
+                                  "slug": "grey-dress",
+                                  "seoFields": {
+                                    "metadata": {
+                                      "tags": [],
+                                      "concepts": []
+                                    },
+                                    "sys": {
+                                      "space": {
+                                        "sys": {
+                                          "type": "Link",
+                                          "linkType": "Space",
+                                          "id": "zm7rtuyvkdw4"
+                                        }
+                                      },
+                                      "id": "4biQMelF6FJpsE6Mol7ALC",
+                                      "type": "Entry",
+                                      "createdAt": "2025-03-31T20:25:32.626Z",
+                                      "updatedAt": "2025-03-31T20:25:32.626Z",
+                                      "environment": {
+                                        "sys": {
+                                          "id": "master",
+                                          "type": "Link",
+                                          "linkType": "Environment"
+                                        }
+                                      },
+                                      "publishedVersion": 1,
+                                      "revision": 1,
+                                      "contentType": {
+                                        "sys": {
+                                          "type": "Link",
+                                          "linkType": "ContentType",
+                                          "id": "componentSeo"
+                                        }
+                                      },
+                                      "locale": "en-US"
+                                    },
+                                    "fields": {
+                                      "internalName": "SEO, grey dress",
+                                      "pageTitle": "Grey dress",
+                                      "pageDescription": "This grey dress is described in this page description",
+                                      "nofollow": false,
+                                      "noindex": false,
+                                      "shareImages": [
+                                        {
+                                          "metadata": {
+                                            "tags": [],
+                                            "concepts": []
+                                          },
+                                          "sys": {
+                                            "space": {
+                                              "sys": {
+                                                "type": "Link",
+                                                "linkType": "Space",
+                                                "id": "zm7rtuyvkdw4"
+                                              }
+                                            },
+                                            "id": "kX2fKuX9ho0Bq3O8EklRu",
+                                            "type": "Asset",
+                                            "createdAt": "2025-03-31T20:25:27.355Z",
+                                            "updatedAt": "2025-03-31T20:25:27.355Z",
+                                            "environment": {
+                                              "sys": {
+                                                "id": "master",
+                                                "type": "Link",
+                                                "linkType": "Environment"
+                                              }
+                                            },
+                                            "publishedVersion": 2,
+                                            "revision": 1,
+                                            "locale": "en-US"
+                                          },
+                                          "fields": {
+                                            "title": "A person wearing a grey dress with some square designs",
+                                            "description": "",
+                                            "file": {
+                                              "url": "/assets/contentful/kX2fKuX9ho0Bq3O8EklRu_IMAGE (1).jpg",
+                                              "details": {
+                                                "size": 74369,
+                                                "image": {
+                                                  "width": 968,
+                                                  "height": 1208
+                                                }
+                                              },
+                                              "fileName": "IMAGE (1).jpg",
+                                              "contentType": "image/jpeg"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  },
+                                  "name": "Grey dress",
+                                  "description": "Collared dress with long sleeves. Elasticated waist and belt. Front fastening with metal buttons.",
+                                  "price": 330,
+                                  "featuredProductImage": {
+                                    "sys": {
+                                      "id": "kX2fKuX9ho0Bq3O8EklRu",
+                                      "type": "Asset",
+                                      "circular": true
+                                    }
+                                  },
+                                  "productImages": [
+                                    {
+                                      "metadata": {
+                                        "tags": [],
+                                        "concepts": []
+                                      },
+                                      "sys": {
+                                        "space": {
+                                          "sys": {
+                                            "type": "Link",
+                                            "linkType": "Space",
+                                            "id": "zm7rtuyvkdw4"
+                                          }
+                                        },
+                                        "id": "28AfvJeVgRhyJf7Q1P27xt",
+                                        "type": "Asset",
+                                        "createdAt": "2025-03-31T20:25:28.380Z",
+                                        "updatedAt": "2025-03-31T20:25:28.380Z",
+                                        "environment": {
+                                          "sys": {
+                                            "id": "master",
+                                            "type": "Link",
+                                            "linkType": "Environment"
+                                          }
+                                        },
+                                        "publishedVersion": 2,
+                                        "revision": 1,
+                                        "locale": "en-US"
+                                      },
+                                      "fields": {
+                                        "title": "A person wearing a grey dress with some square designs",
+                                        "description": "",
+                                        "file": {
+                                          "url": "/assets/contentful/28AfvJeVgRhyJf7Q1P27xt_khaled-ghareeb-upepKTbwm3A-unsplash (1).jpg",
+                                          "details": {
+                                            "size": 517110,
+                                            "image": {
+                                              "width": 3779,
+                                              "height": 5525
+                                            }
+                                          },
+                                          "fileName": "khaled-ghareeb-upepKTbwm3A-unsplash (1).jpg",
+                                          "contentType": "image/jpeg"
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "relatedProducts": [
+                                    {
+                                      "sys": {
+                                        "id": "3fDQVDPenkIxQ2hWnHauVM",
+                                        "type": "Entry",
+                                        "circular": true
+                                      }
+                                    },
+                                    {
+                                      "sys": {
+                                        "id": "2sBt5zykblWEodnnEnPxfU",
+                                        "type": "Entry",
+                                        "circular": true
+                                      }
+                                    },
+                                    {
+                                      "metadata": {
+                                        "tags": [],
+                                        "concepts": []
+                                      },
+                                      "sys": {
+                                        "space": {
+                                          "sys": {
+                                            "type": "Link",
+                                            "linkType": "Space",
+                                            "id": "zm7rtuyvkdw4"
+                                          }
+                                        },
+                                        "id": "6KFK65wxB8CwYm0wzHaQGk",
+                                        "type": "Entry",
+                                        "createdAt": "2025-03-31T20:25:31.644Z",
+                                        "updatedAt": "2025-03-31T20:25:31.644Z",
+                                        "environment": {
+                                          "sys": {
+                                            "id": "master",
+                                            "type": "Link",
+                                            "linkType": "Environment"
+                                          }
+                                        },
+                                        "publishedVersion": 1,
+                                        "revision": 1,
+                                        "contentType": {
+                                          "sys": {
+                                            "type": "Link",
+                                            "linkType": "ContentType",
+                                            "id": "pageProduct"
+                                          }
+                                        },
+                                        "locale": "en-US"
+                                      },
+                                      "fields": {
+                                        "internalName": "Maroon dress",
+                                        "slug": "maroon-dress",
+                                        "seoFields": {
+                                          "metadata": {
+                                            "tags": [],
+                                            "concepts": []
+                                          },
+                                          "sys": {
+                                            "space": {
+                                              "sys": {
+                                                "type": "Link",
+                                                "linkType": "Space",
+                                                "id": "zm7rtuyvkdw4"
+                                              }
+                                            },
+                                            "id": "6tsSPZkwS4v0eUGpiSeh8K",
+                                            "type": "Entry",
+                                            "createdAt": "2025-03-31T20:25:32.629Z",
+                                            "updatedAt": "2025-03-31T20:25:32.629Z",
+                                            "environment": {
+                                              "sys": {
+                                                "id": "master",
+                                                "type": "Link",
+                                                "linkType": "Environment"
+                                              }
+                                            },
+                                            "publishedVersion": 1,
+                                            "revision": 1,
+                                            "contentType": {
+                                              "sys": {
+                                                "type": "Link",
+                                                "linkType": "ContentType",
+                                                "id": "componentSeo"
+                                              }
+                                            },
+                                            "locale": "en-US"
+                                          },
+                                          "fields": {
+                                            "internalName": "SEO, maroon dress",
+                                            "pageTitle": "Maroon dress",
+                                            "pageDescription": "This maroon dress is described in this page description",
+                                            "nofollow": false,
+                                            "noindex": false,
+                                            "shareImages": [
+                                              {
+                                                "metadata": {
+                                                  "tags": [],
+                                                  "concepts": []
+                                                },
+                                                "sys": {
+                                                  "space": {
+                                                    "sys": {
+                                                      "type": "Link",
+                                                      "linkType": "Space",
+                                                      "id": "zm7rtuyvkdw4"
+                                                    }
+                                                  },
+                                                  "id": "2j87g8YmvFSYmTrP3OXggp",
+                                                  "type": "Asset",
+                                                  "createdAt": "2025-03-31T20:25:28.525Z",
+                                                  "updatedAt": "2025-03-31T20:25:28.525Z",
+                                                  "environment": {
+                                                    "sys": {
+                                                      "id": "master",
+                                                      "type": "Link",
+                                                      "linkType": "Environment"
+                                                    }
+                                                  },
+                                                  "publishedVersion": 2,
+                                                  "revision": 1,
+                                                  "locale": "en-US"
+                                                },
+                                                "fields": {
+                                                  "title": "A person wearing a maroon coloured flowing dress",
+                                                  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris",
+                                                  "file": {
+                                                    "url": "/assets/contentful/2j87g8YmvFSYmTrP3OXggp_IMAGE.jpg",
+                                                    "details": {
+                                                      "size": 98934,
+                                                      "image": {
+                                                        "width": 960,
+                                                        "height": 1200
+                                                      }
+                                                    },
+                                                    "fileName": "IMAGE.jpg",
+                                                    "contentType": "image/jpeg"
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        },
+                                        "name": "Maroon dress",
+                                        "description": "Mock neck dress with wide sleeves falling below the elbow. Featuring false gold-toned buttons on the sides and a belt in the same fabric. Ruffled hem and back fastening with invisible zip and button.",
+                                        "price": 330,
+                                        "featuredProductImage": {
+                                          "sys": {
+                                            "id": "2j87g8YmvFSYmTrP3OXggp",
+                                            "type": "Asset",
+                                            "circular": true
+                                          }
+                                        },
+                                        "relatedProducts": [
+                                          {
+                                            "sys": {
+                                              "id": "7MSF2wmCJ89rvcay2egiTu",
+                                              "type": "Entry",
+                                              "circular": true
+                                            }
+                                          },
+                                          {
+                                            "sys": {
+                                              "id": "4RbpMSbXmqeuRs9c1e88dd",
+                                              "type": "Entry",
+                                              "circular": true
+                                            }
+                                          },
+                                          {
+                                            "sys": {
+                                              "id": "4T4vEnCDiBKom6S1k8eVyH",
+                                              "type": "Entry",
+                                              "circular": true
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  ]
+                                }
+                              },
+                              {
+                                "sys": {
+                                  "id": "2sBt5zykblWEodnnEnPxfU",
+                                  "type": "Entry",
+                                  "circular": true
+                                }
+                              },
+                              {
+                                "sys": {
+                                  "id": "3fDQVDPenkIxQ2hWnHauVM",
+                                  "type": "Entry",
+                                  "circular": true
+                                }
+                              }
+                            ]
+                          }
+                        },
+                        {
+                          "sys": {
+                            "id": "4T4vEnCDiBKom6S1k8eVyH",
+                            "type": "Entry",
+                            "circular": true
+                          }
+                        },
+                        {
+                          "sys": {
+                            "id": "3fDQVDPenkIxQ2hWnHauVM",
+                            "type": "Entry",
+                            "circular": true
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "sys": {
+                      "id": "6KFK65wxB8CwYm0wzHaQGk",
+                      "type": "Entry",
+                      "circular": true
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "sys": {
+                "id": "6KFK65wxB8CwYm0wzHaQGk",
+                "type": "Entry",
+                "circular": true
+              }
+            },
+            {
+              "sys": {
+                "id": "4T4vEnCDiBKom6S1k8eVyH",
+                "type": "Entry",
+                "circular": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "sys": {
+          "id": "4T4vEnCDiBKom6S1k8eVyH",
+          "type": "Entry",
+          "circular": true
+        }
+      },
+      {
+        "sys": {
+          "id": "4RbpMSbXmqeuRs9c1e88dd",
+          "type": "Entry",
+          "circular": true
+        }
+      },
+      {
+        "sys": {
+          "id": "3fDQVDPenkIxQ2hWnHauVM",
+          "type": "Entry",
+          "circular": true
+        }
+      },
+      {
+        "sys": {
+          "id": "7MSF2wmCJ89rvcay2egiTu",
+          "type": "Entry",
+          "circular": true
+        }
+      },
+      {
+        "sys": {
+          "id": "6KFK65wxB8CwYm0wzHaQGk",
+          "type": "Entry",
+          "circular": true
+        }
+      }
+    ]
+  }
+}

@@ -1,56 +1,88 @@
-<ng-container *ngIf="homePage">
-  <h1 class="text-5xl font-bold text-pink-500 mb-2 tracking-tight">
-    Contentful {{ homePage.fields["internalName"] }}
-  </h1>
+<!-- Loading state -->
+<div *ngIf="isLoading" class="flex justify-center items-center h-screen">
+  <div class="text-xl text-pink-500 font-bold">Loading content...</div>
+</div>
 
-  <div class="relative">
-    <h2
-      class="text-[6rem] md:text-[15rem] text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-extrabold"
-    >
-      {{ homePage.fields["heroBannerHeadline"] }}
-    </h2>
-
-    <ng-container *ngIf="homePage.fields['heroBannerImage']">
-      <img
-        *ngIf="homePage.fields['heroBannerImage']"
-        [src]="getHeroImageUrl(homePage)"
-        [alt]="homePage.fields['heroBannerHeadline']"
-        class="w-full -z-10 relative mb-10 h-[600px] object-cover object-top"
-      />
-    </ng-container>
+<!-- Error state -->
+<div *ngIf="hasError" class="flex justify-center items-center h-screen">
+  <div class="text-xl text-red-500 font-bold">
+    Could not load content. Please try again later.
   </div>
-</ng-container>
+</div>
 
-<div class="text-3xl font-extrabold text-pink-500 mb-1">Trending Now</div>
+<!-- Content loaded successfully -->
+<ng-container *ngIf="!isLoading && !hasError">
+  <!-- Hero section with homepage content -->
+  <ng-container *ngIf="homePage">
+    <h1 class="text-5xl font-bold text-pink-500 mb-2 tracking-tight">
+      Contentful {{ homePage.fields["internalName"] }}
+    </h1>
 
-<ul class="grid grid-cols-1 md:grid-cols-3 gap-6">
-  <li
-    *ngFor="let product of products"
-    class="bg-white rounded-md shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
-  >
-    <div class="p-4">
-      <h2 class="text-xl font-medium text-gray-500 mb-2">
-        {{ product.fields["internalName"] }}
+    <div class="relative">
+      <h2
+        class="text-[6rem] md:text-[15rem] text-white absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-extrabold"
+      >
+        {{ homePage.fields["heroBannerHeadline"] }}
       </h2>
 
-      <ng-container *ngIf="product.fields['featuredProductImage']">
+      <ng-container *ngIf="homePage.fields['heroBannerImage']">
         <img
-          *ngIf="product.fields['featuredProductImage']"
-          [src]="getFeaturedProductImageUrl(product)"
-          [alt]="product.fields['name']"
-          class="w-full mb-3"
+          *ngIf="homePage.fields['heroBannerImage']"
+          [src]="getHeroImageUrl(homePage)"
+          [alt]="homePage.fields['heroBannerHeadline']"
+          class="w-full -z-10 relative mb-10 h-[600px] object-cover object-top"
         />
       </ng-container>
-
-      <p class="mb-2 text-gray-500 leading-snug">
-        {{ product.fields["description"] }}
-      </p>
-
-      <ng-container *ngIf="product.fields['price']">
-        <div class="text-lg font-bold text-pink-500">
-          ${{ product.fields["price"] }}
-        </div>
-      </ng-container>
     </div>
-  </li>
-</ul>
+  </ng-container>
+
+  <!-- Products section -->
+  <div class="text-3xl font-extrabold text-pink-500 mb-1">Trending Now</div>
+
+  <!-- Debug info -->
+  <div class="text-sm bg-gray-100 p-2 mb-4 rounded text-gray-500">
+    Loaded {{ products.length }} products
+  </div>
+
+  <!-- No products found state -->
+  <div *ngIf="products.length === 0" class="py-8 text-center text-gray-500">
+    No products found.
+  </div>
+
+  <!-- Products grid -->
+  <ul class="grid grid-cols-1 md:grid-cols-3 gap-6">
+    <li
+      *ngFor="let product of products"
+      class="bg-white rounded-md shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+    >
+      <div class="p-4">
+        <h2 class="text-xl font-medium text-gray-500 mb-2">
+          {{ getProductName(product) }}
+        </h2>
+
+        <div class="mb-3">
+          <img
+            *ngIf="getFeaturedProductImageUrl(product)"
+            [src]="getFeaturedProductImageUrl(product)"
+            [alt]="getProductName(product)"
+            class="w-full"
+          />
+          <div
+            *ngIf="!getFeaturedProductImageUrl(product)"
+            class="bg-gray-200 h-40 flex items-center justify-center text-gray-400"
+          >
+            No image available
+          </div>
+        </div>
+
+        <p class="mb-2 text-gray-500 leading-snug">
+          {{ getProductDescription(product) }}
+        </p>
+
+        <div class="text-lg font-bold text-pink-500">
+          {{ getProductPrice(product) }}
+        </div>
+      </div>
+    </li>
+  </ul>
+</ng-container>
