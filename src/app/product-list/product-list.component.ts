@@ -12,7 +12,7 @@ import { Entry } from "contentful";
 })
 export class ProductListComponent implements OnInit {
   public products: Entry<any>[] = [];
-  public homePage?: Entry<any>;
+  public homePage: Entry<any> | null = null;
 
   constructor(private readonly _contentfulService: ContentfulService) {}
 
