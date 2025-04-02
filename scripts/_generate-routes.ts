@@ -1,4 +1,5 @@
-// scripts/generate-routes.ts
+// TODO: Refactor or Remove
+
 import { createClient } from "contentful";
 import * as dotenv from "dotenv";
 import * as fs from "fs";
@@ -21,9 +22,9 @@ const CONFIG = {
 
 async function generateRoutes() {
   const client = createClient({
-    space: CONFIG.space,
-    accessToken: CONFIG.accessToken,
-    environment: CONFIG.environment,
+    space: CONFIG.space ?? "",
+    accessToken: CONFIG.accessToken ?? "",
+    environment: CONFIG.environment ?? "master",
   });
 
   try {
