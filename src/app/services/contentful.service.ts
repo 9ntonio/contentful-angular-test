@@ -21,7 +21,7 @@ export class ContentfulService {
 
   constructor() {}
 
-  getHomePage(query?: object): Promise<Entry<any>> {
+  getHomePage(query?: object): Promise<Entry> {
     // !! entry by id for homePage
     return this._contentfulClient
       .getEntry("2cayfg7wVF5WezADCHgSgL")
