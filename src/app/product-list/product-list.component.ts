@@ -31,7 +31,11 @@ export class ProductListComponent implements OnInit {
         this.homePage = data;
         // Extract products from the home page
         if (data.fields.products && Array.isArray(data.fields.products)) {
-          // Type assertion to handle Contentful's complex typing
+          // !! Type assertion to handle Contentful's complex typing
+          // !! Double type assertion with 'unknown' as intermediate step is used because:
+          // !! 1. Contentful's nested reference structure creates complex typing challenges
+          // !! 2. Direct type assertion might not be allowed by TypeScript
+          // !! 3. Using 'unknown' as intermediate step is more type-safe than direct assertion
           this.products = data.fields.products.map(
             (entry) => entry as unknown as TypePageProduct<ChainModifiers>
           );
