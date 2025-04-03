@@ -1,7 +1,12 @@
 import { Component, OnInit } from "@angular/core";
 import { CommonModule } from "@angular/common";
 import { ContentfulService } from "../services/contentful.service";
-import { Entry } from "contentful";
+// Import the generated types
+import {
+  TypePageLanding,
+  TypePageProduct,
+} from "../models/contentful-types.ts";
+import { Asset, ChainModifiers } from "contentful";
 
 @Component({
   selector: "app-product-list",
@@ -11,34 +16,74 @@ import { Entry } from "contentful";
   imports: [CommonModule],
 })
 export class ProductListComponent implements OnInit {
-  public products: Entry[] = [];
-  public homePage: Entry | null = null;
+  // Use specific types instead of generic Entry[]
+  public products: TypePageProduct<ChainModifiers>[] = [];
+  public homePage: TypePageLanding<ChainModifiers> | null = null;
 
   constructor(private readonly _contentfulService: ContentfulService) {}
 
   ngOnInit() {
+    // Get home page data with products
     this._contentfulService.getEntries();
-    this._contentfulService.getHomePage().then((data: Entry) => {
-      this.homePage = data;
-      this.products = (data.fields as Record<string, any>)["products"];
-    });
+    this._contentfulService
+      .getHomePage()
+      .then((data: TypePageLanding<ChainModifiers>) => {
+        this.homePage = data;
+        // Extract products from the home page
+        if (data.fields.products && Array.isArray(data.fields.products)) {
+          // Type assertion to handle Contentful's complex typing
+          this.products = data.fields.products.map(
+            (entry) => entry as unknown as TypePageProduct<ChainModifiers>
+          );
+        }
+      });
   }
 
-  getProductImageUrl(product: Entry): string | null {
-    const fields = product?.fields as Record<string, any>;
-    const image = fields?.["productImages"];
-    return image[0]?.fields?.file?.url || null;
+  /**
+   * Get URL for product image
+   * @param product The product entry
+   * @returns Image URL or null if not available
+   */
+  getProductImageUrl(product: TypePageProduct<ChainModifiers>): string | null {
+    if (
+      !product?.fields?.productImages ||
+      !Array.isArray(product.fields.productImages) ||
+      product.fields.productImages.length === 0
+    ) {
+      return null;
+    }
+
+    const asset = product.fields.productImages[0] as Asset<ChainModifiers>;
+    return asset?.fields?.file?.url ? asset.fields.file.url.toString() : null;
   }
 
-  getFeaturedProductImageUrl(product: Entry): string | null {
-    const fields = product?.fields as Record<string, any>;
-    const productImage = fields?.["featuredProductImage"];
-    return productImage?.fields?.file?.url || null;
+  /**
+   * Get URL for featured product image
+   * @param product The product entry
+   * @returns Image URL or null if not available
+   */
+  getFeaturedProductImageUrl(
+    product: TypePageProduct<ChainModifiers>
+  ): string | null {
+    if (!product?.fields?.featuredProductImage) {
+      return null;
+    }
+
+    const asset = product.fields.featuredProductImage as Asset<ChainModifiers>;
+    return asset?.fields?.file?.url ? asset.fields.file.url.toString() : null;
   }
 
-  getHeroImageUrl(homePage: Entry): string | null {
-    const fields = homePage?.fields as Record<string, any>;
-    const heroImage = fields?.["heroBannerImage"];
-    return heroImage?.fields?.file?.url || null;
+  /**
+   * Get URL for hero banner image
+   * @param homePage The home page entry
+   * @returns Image URL or null if not available
+   */
+  getHeroImageUrl(homePage: TypePageLanding<ChainModifiers>): string | null {
+    if (!homePage?.fields?.heroBannerImage) {
+      return null;
+    }
+
+    const asset = homePage.fields.heroBannerImage as Asset<ChainModifiers>;
+    return asset?.fields?.file?.url ? asset.fields.file.url.toString() : null;
   }
 }
